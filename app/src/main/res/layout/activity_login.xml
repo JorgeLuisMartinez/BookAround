@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8C9EFF"
+    android:backgroundTint="#8C9EFF"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/LogoLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/TxtPassword"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/LoginPass"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/botonIniciar"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DFE66D1B"
+        android:onClick="Main"
+        android:text="@string/LoginBoton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <Button
+        android:id="@+id/botonRegistrar"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DFE66D1B"
+        android:text="@string/RegisterBoton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/LoginEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

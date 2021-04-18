@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092494166635",
+    "firebase_url": "https://fir-appjorge.firebaseio.com",
+    "project_id": "fir-appjorge",
+    "storage_bucket": "fir-appjorge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092494166635:android:27d4c1a934622585023f2e",
+        "android_client_info": {
+          "package_name": "com.example.parcial1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092494166635-lnkvo9tjfgq3ofhbtoaemacq8q9v0hmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs3PeAvTYHRFVkJvQUvHt-WcNwIb3CF4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092494166635-lnkvo9tjfgq3ofhbtoaemacq8q9v0hmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
